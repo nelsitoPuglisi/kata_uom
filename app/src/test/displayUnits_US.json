@@ -1,0 +1,215 @@
+{
+  "country": "US",
+  "displayUnits": {
+    "rainfall": {
+      "unit": "in",
+      "precision": 1
+    },
+    "rainfall-number": {
+      "unit": "in",
+      "precision": 1
+    },
+    "crop-water-use": {
+      "unit": "in",
+      "precision": 3
+    },
+    "elevation": {
+      "unit": "ft",
+      "precision": 1
+    },
+    "travel-distance": {
+      "unit": "mi",
+      "precision": 1
+    },
+    "soil-depth": {
+      "unit": "in",
+      "precision": 0
+    },
+    "machine-settings": {
+      "unit": "in",
+      "precision": 0
+    },
+    "buffer-width": {
+      "unit": "ft",
+      "precision": 0
+    },
+    "area": {
+      "unit": "ac",
+      "precision": 1
+    },
+    "mass": {
+      "unit": "lbs",
+      "precision": 1
+    },
+    "mass.yield": {
+      "unit": "bu",
+      "precision": 0
+    },
+    "mass.yield.unweighted-crop": {
+      "unit": "lbs",
+      "precision": 1
+    },
+    "mass.yield.dry-mass": {
+      "unit": "lbs",
+      "precision": 0
+    },
+    "mass.yield.wet-mass": {
+      "unit": "lbs",
+      "precision": 0
+    },
+    "mass.application": {
+      "unit": "ton",
+      "precision": 2
+    },
+    "mass.application.dry-fertilizer": {
+      "unit": "ton",
+      "precision": 2
+    },
+    "area-density": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "area-density.yield": {
+      "unit": "bu/ac",
+      "precision": 0
+    },
+    "area-density.yield.unweighted-crop": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "area-density.yield.wet-mass": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "area-density.application": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "area-density.application.dry-fertilizer": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "area-density.application.solid-nitrogen": {
+      "unit": "ton/ac",
+      "precision": 1
+    },
+    "area-density.application.nitrogen-rate": {
+      "unit": "lbs N/ac",
+      "precision": 1
+    },
+    "solid-density.application.nitrogen-content": {
+      "unit": "lbs/N ton",
+      "precision": 0
+    },
+    "density.application.nitrogen-content": {
+      "unit": "lbs N/1,000 gallons",
+      "precision": 0
+    },
+    "seed-density": {
+      "unit": "seed/ac",
+      "precision": 0
+    },
+    "seed-density.seed-density-short": {
+      "unit": "k seed/ac",
+      "precision": 1
+    },
+    "seed-density.air-seeder": {
+      "unit": "lbs/ac",
+      "precision": 1
+    },
+    "land-speed": {
+      "unit": "mph",
+      "precision": 1
+    },
+    "wind-speed": {
+      "unit": "mph",
+      "precision": 0
+    },
+    "temperature": {
+      "unit": "f",
+      "precision": 0
+    },
+    "density": {
+      "unit": "lbs/gal",
+      "precision": 1
+    },
+    "ratio": {
+      "unit": "percent",
+      "precision": 1
+    },
+    "elapsed-time": {
+      "unit": "second",
+      "precision": 0
+    },
+    "volume": {
+      "unit": "gal",
+      "precision": 1
+    },
+    "volumetric-density": {
+      "unit": "gal/ac",
+      "precision": 1
+    },
+    "volumetric-flow-rate": {
+      "unit": "gal/hr",
+      "precision": 1
+    },
+    "soil-cation-exchange-capacity": {
+      "unit": "cmol/kg",
+      "precision": 1
+    },
+    "crop-heat-index": {
+      "unit": "gduf",
+      "precision": 0
+    },
+    "humidity": {
+      "unit": "percent",
+      "precision": 1
+    },
+    "low-biomass": {
+      "unit": "percent",
+      "precision": 0
+    },
+    "weather-probability": {
+      "unit": "percent",
+      "precision": 0
+    },
+    "nominal-weight": {
+      "unit": "lbs/bu",
+      "precision": 1
+    },
+    "product-additive-rate": {
+      "precision": 1
+    },
+    "product-additive-quantity": {
+      "precision": 2
+    },
+    "area-cost": {
+      "unit": "usd/ac",
+      "precision": 0
+    },
+    "mass-cost": {
+      "unit": "usd/lb",
+      "precision": 0
+    },
+    "mass-cost.yield": {
+      "unit": "usd/bu",
+      "precision": 0
+    },
+    "wet-mass-cotton": {
+      "unit": "lb",
+      "precision": 0
+    },
+    "yield-density-weighted-crop-cotton": {
+      "unit": "bu/ac",
+      "precision": 0
+    },
+    "yield-dry-mass-cotton": {
+      "unit": "lb",
+      "precision": 0
+    },
+    "yield-mass-weighted-crop-cotton": {
+      "unit": "bu",
+      "precision": 0
+    }
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "unit aliases": {
+    "acre": "ac",
+    "acres": "ac",
+    "hectare": "ha",
+    "m^2": "meter^2",
+
+    "millimeter": "mm",
+    "centimeter": "cm",
+    "meter": "m",
+    "meters": "m",
+    "kilometer": "km",
+    "inch": "in",
+    "foot": "ft",
+    "mile": "mi",
+
+    "celsius": "c",
+    "fahrenheit": "f",
+    "kelvin": "K",
+
+    "kilogram": "kg",
+    "pound": "lb",
+    "pounds": "lb",
+    "lbs": "lb",
+    "metric-ton": "mt",
+    "tonne": "mt",
+    "ton": "short-ton",
+    "ounces": "oz",
+    "quarts": "qt",
+    "liter": "l",
+
+    "seed/acre": "seed/ac",
+    "seeds/acre": "seed/ac",
+    "kiloseed/acre": "k seed/ac",
+    "seed/hectare": "seed/ha",
+    "kiloseed/hectare": "k seed/ha",
+
+    "mile/hour": "mph",
+    "kilometer/hour": "kph",
+    "meter/second": "m/s",
+
+    "tonne/acre": "mt/ac",
+    "kilogram/acre": "kg/ac",
+    "pound/acre": "lb/ac",
+    "lbs/ac": "lb/ac",
+    "lbs N/ac": "lb/ac",
+    "gallon/acre": "gal/ac",
+    "kilogram/hectare": "kg/ha",
+    "kg/hectare": "kg/ha",
+    "bags/hectare": "bag/ha",
+    "bags/ha": "bag/ha",
+    "tonne/hectare": "mt/ha",
+    "mT/ha": "mt/ha",
+    "liter/hectare": "l/ha",
+
+    "gallon/hour": "gal/h",
+    "liter/hour": "l/h",
+
+    "second": "s",
+
+    "gdus": "gduc",
+    "lbs/gal": "lb/gal",
+    "lbs N/1,000 gallons": "lb/1000 gal",
+    "lbs/bu": "lb/bu",
+    "kilogram/meter^3": "kg/m^3",
+    "tons N/ac": "ton/ac",
+    "gdu": "gduc",
+    "gal/hr": "gal/h",
+    "l/hr": "l/h",
+    "cmol/kg": "cmole/kg",
+
+    "kilogram/tonne": "kg/mt",
+    "lbs/N ton": "lb/short-ton",
+    "ton/ac": "short-ton/ac",
+
+    "usd/acre": "usd/ac",
+    "usd/hectare": "usd/ha",
+
+    "soybean-bag": "soy-bag",
+    "soybean-seed": "soy-seed",
+    "bag/1000 soybean-seed": "bag/1000 soy-seed",
+
+    "%": "percent"
+  },
+
+  "units": {
+
+    "area": {
+      "ac": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "ac",
+        "base": true
+      },
+      "ha": {
+        "ratio": 0.40468564224,
+        "constant": 0,
+        "loc_key": "ha"
+      },
+      "meter^2": {
+        "ratio": 4046.8564224,
+        "constant": 0,
+        "loc_key": "meter^2"
+      }
+    },
+
+
+
+    "temperature": {
+      "K": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "K",
+        "base": true
+      },
+      "c": {
+        "ratio": 1,
+        "constant": 273.15,
+        "loc_key": "c"
+      },
+      "f": {
+        "ratio": 1.8,
+        "constant": 459.67,
+        "loc_key": "f"
+      }
+    },
+
+
+
+    "percent": {
+      "percent": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "percent",
+        "base": true
+      }
+    },
+
+
+
+    "length": {
+      "m": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "m",
+        "base": true
+      },
+      "in": {
+        "ratio": 39.37007874015748,
+        "constant": 0,
+        "loc_key": "in"
+      },
+      "ft": {
+        "ratio": 3.280839895013123,
+        "constant": 0,
+        "loc_key": "ft"
+      },
+      "mi": {
+        "ratio": 0.000621371192237334,
+        "constant": 0,
+        "loc_key": "mi"
+      },
+      "mm": {
+        "ratio": 1000,
+        "constant": 0,
+        "loc_key": "mm"
+      },
+      "cm": {
+        "ratio": 100,
+        "constant": 0,
+        "loc_key": "cm"
+      },
+      "km": {
+        "ratio": 0.001,
+        "constant": 0,
+        "loc_key": "km"
+      }
+    },
+
+
+
+    "mass": {
+      "kg": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "kg",
+        "base": true
+      },
+      "g": {
+        "ratio": 1000,
+        "constant": 0,
+        "loc_key": "g"
+      },
+      "lb": {
+        "ratio": 2.204622621848776,
+        "constant": 0,
+        "loc_key": "lb"
+      },
+      "mt": {
+        "ratio": 0.001,
+        "constant": 0,
+        "loc_key": "mt"
+      },
+      "short-ton": {
+        "ratio": 0.0011023113109244,
+        "constant": 0,
+        "loc_key": "short-ton"
+      },
+      "bag": {
+        "ratio": 0.016666666666667,
+        "loc_key": "bag",
+        "constant": 0
+      },
+      "oz": {
+        "ratio": 35.27396194958,
+        "loc_key": "oz",
+        "constant": 0
+      },
+      "arroba": {
+        "ratio": 0.06666666666,
+        "constant": 0,
+        "loc_key" : "arroba"
+      }
+    },
+
+
+
+
+    "yield_volume": {
+      "gal/ac": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "gal-ac",
+        "base": true
+      },
+      "l/ac": {
+        "ratio": 3.78541253426,
+        "constant": 0,
+        "loc_key": "l-ac"
+      },
+      "ml/ac": {
+        "ratio": 3785.41253426,
+        "constant": 0,
+        "loc_key": "ml-ac"
+      },
+      "l/ha": {
+        "ratio": 9.35396,
+        "constant": 0,
+        "loc_key": "l-ha"
+      },
+      "meter^3/hectare": {
+        "ratio": 0.00935396,
+        "constant": 0,
+        "loc_key": "m^3-ha"
+      },
+      "floz/ac": {
+        "ratio": 128,
+        "constant": 0,
+        "loc_key": "floz-ac"
+      },
+      "pt/ac": {
+        "ratio": 8.0,
+        "constant": 0,
+        "loc_key": "pt-ac"
+      },
+      "qt/ac": {
+        "ratio": 4.0,
+        "constant": 0,
+        "loc_key": "qt-ac"
+      },
+      "hundredgal/ac": {
+        "ratio": 0.01,
+        "constant": 0,
+        "loc_key": "hundredgal-ac"
+      }
+    },
+
+
+
+    "yield_units": {
+      "seed/ac": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "seed-ac",
+        "base": true
+      },
+      "k seed/ac": {
+        "ratio": 0.001,
+        "constant": 0,
+        "loc_key": "k-seed-ac"
+      },
+      "seed/ha": {
+        "ratio": 2.47105,
+        "constant": 0,
+        "loc_key": "seed-ha"
+      },
+      "k seed/ha": {
+        "ratio": 0.00247105,
+        "constant": 0,
+        "loc_key": "k-seed-ha"
+      }
+    },
+
+
+
+    "speed": {
+      "mph": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "mph",
+        "base": true
+      },
+      "kph": {
+        "ratio": 1.60934,
+        "constant": 0,
+        "loc_key": "kph"
+      },
+      "m/s": {
+        "ratio": 0.44704,
+        "constant": 0,
+        "loc_key": "m-s"
+      }
+    },
+
+
+
+    "volume_over_time": {
+      "gal/h": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "gal-h",
+        "base": true
+      },
+      "l/h": {
+        "ratio": 3.78541253426,
+        "constant": 0,
+        "loc_key": "l-h"
+      }
+    },
+
+
+
+    "time": {
+      "s": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "s",
+        "base": true
+      }
+    },
+
+
+
+    "liquid_density": {
+      "kg/m^3": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "kg-m^3",
+        "base": true
+      },
+      "lb/1000 gal": {
+        "ratio": 8.34540445319611,
+        "constant": 0,
+        "loc_key": "lb-1000-gal"
+      },
+      "lb/gal": {
+        "ratio": 0.00834540445319611,
+        "constant": 0,
+        "loc_key": "lb-gal"
+      }
+    },
+
+
+
+    "solid_density": {
+      "kg/mt": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "kg-mt",
+        "base": true
+      },
+      "lb/short-ton": {
+        "ratio": 2,
+        "constant": 0,
+        "loc_key": "lb-short-ton"
+      }
+    },
+
+
+
+    "usd_over_area": {
+      "usd/ac": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "usd-ac",
+        "base": true
+      },
+      "usd/ha": {
+        "ratio": 2.471052,
+        "constant": 0,
+        "loc_key": "usd-ha"
+      }
+    },
+
+
+
+    "usd_over_crop_mass": {
+      "usd/kg": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "usd-kg",
+        "base": true
+      },
+      "usd/lb": {
+        "ratio": 0.45359237,
+        "constant": 0,
+        "loc_key": "usd-lb"
+      },
+      "usd/mt": {
+        "ratio": 1000,
+        "constant": 0,
+        "loc_key": "usd-mt"
+      },
+      "usd/bag": {
+        "ratio": 60,
+        "constant": 0,
+        "loc_key": "usd-bag"
+      }
+    },
+
+
+
+    "usd_over_crop_volume": {
+      "usd/bu": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "usd-bu",
+        "base": true
+      }
+    },
+
+
+    "growing-degree-units": {
+      "gduc": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "gduc",
+        "base": true
+      },
+      "gduf": {
+        "ratio": 1.8,
+        "constant": 0,
+        "loc_key": "gduf"
+      }
+    },
+
+
+
+    "volume": {
+      "l": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "l",
+        "base": true
+      },
+      "ml": {
+        "ratio": 1000,
+        "constant": 0,
+        "loc_key": "ml"
+      },
+      "bu": {
+        "ratio": 0.02837759325840175,
+        "constant": 0,
+        "comment": "US Dry Level",
+        "loc_key": "bu"
+      },
+      "m^3": {
+        "ratio": 0.001,
+        "constant": 0,
+        "loc_key": "m^3"
+      },
+      "gal": {
+        "ratio": 0.2641720523581484,
+        "constant": 0,
+        "loc_key": "gal"
+      },
+      "hundredgal": {
+        "ratio": 0.00264172,
+        "constant": 0,
+        "loc_key": "hundredgal"
+      },
+      "floz": {
+        "ratio": 33.814022701842994,
+        "constant": 0,
+        "comment": "US Fluid Ounces",
+        "loc_key": "floz"
+      },
+      "pt": {
+        "ratio": 2.113376418865,
+        "constant": 0,
+        "comment": "US Fluid Pints",
+        "loc_key": "pt"
+      },
+      "qt": {
+        "ratio": 1.056688209432594,
+        "constant": 0,
+        "comment": "US Fluid Quarts",
+        "loc_key": "qt"
+      }
+    },
+
+
+
+    "crop_volume_per_area": {
+      "bu/ac": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "bu-ac",
+        "base": true
+      },
+      "bu/ha": {
+        "ratio": 2.4710538146716545,
+        "constant": 0,
+        "loc_key": "bu-ha"
+      }
+    },
+
+
+
+    "crop_mass_per_area": {
+      "mt/ha": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "mt-ha",
+        "base": true
+      },
+      "bag/ha": {
+        "ratio": 16.6666666667,
+        "constant": 0,
+        "loc_key": "bag-ha"
+      },
+      "mt/ac": {
+        "ratio": 0.4046856422400006,
+        "constant": 0,
+        "loc_key": "mt-ac"
+      },
+      "kg/ac": {
+        "ratio": 404.6856422400006,
+        "loc_key": "kg-ac",
+        "constant": 0
+      },
+      "g/ac": {
+        "ratio": 404685.6422400006,
+        "loc_key": "g-ac",
+        "constant": 0
+      },
+      "lb/ac": {
+        "ratio": 892.179,
+        "loc_key": "lb-ac",
+        "constant": 0
+      },
+      "lb/ha": {
+        "ratio": 2204.622621848776,
+        "loc_key": "lb-ha",
+        "constant": 0
+      },
+      "kg/ha": {
+        "ratio": 1000,
+        "loc_key": "kg-ha",
+        "constant": 0
+      },
+      "short-ton/ac": {
+        "ratio": 0.44609,
+        "loc_key": "short-ton-ac",
+        "constant": 0
+      },
+      "oz/ac": {
+        "ratio": 14.274865946,
+        "loc_key": "oz-ac",
+        "constant": 0
+      },
+      "arroba/ha" : {
+        "ratio": 66.6666666667,
+        "constant": 0,
+        "loc_key" : "arroba-ha"
+      }
+    },
+
+
+
+    "crop_nominal_weight": {
+      "lb/bu": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "lb-bu",
+        "base": true
+      }
+    },
+
+
+
+    "amount_of_substance_over_mass": {
+      "mole/kg": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "mole-kg",
+        "base": true
+      },
+      "cmole/kg": {
+        "ratio": 100,
+        "constant": 0,
+        "loc_key": "cmole-kg"
+      }
+    },
+
+
+
+    "seed" : {
+      "seed" : {
+        "ratio" : 1,
+        "constant" : 0,
+        "loc_key" : "seed",
+        "base" : true
+      },
+      "k seed": {
+        "ratio": 0.001,
+        "constant": 0,
+        "loc_key": "k-seed"
+      }
+    },
+
+
+
+    "corn_seeds": {
+      "corn-bag": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "corn-bag",
+        "base": true
+      },
+      "corn-seed": {
+        "ratio": 80000,
+        "constant": 0,
+        "loc_key": "corn-seed"
+      },
+      "bag/1000 corn-seed": {
+        "ratio": 0.0125,
+        "constant": 0,
+        "loc_key": "bag-1000-corn-seeds"
+      }
+    },
+
+
+
+    "soy_seeds": {
+      "soy-bag": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "soy-bag",
+        "base": true
+      },
+      "soy-seed": {
+        "ratio": 140000,
+        "constant": 0,
+        "loc_key": "soy-seed"
+      },
+      "bag/1000 soy-seed": {
+        "ratio": 0.00714285714286,
+        "constant": 0,
+        "loc_key": "bag-1000-soy-seeds"
+      }
+    },
+
+
+
+    "usd_over_corn_seeds": {
+      "usd/corn-bag": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "usd-corn-bag",
+        "base": true
+      },
+      "usd/1000 corn-seed": {
+        "ratio": 0.0000125,
+        "constant": 0,
+        "loc_key": "usd-1000-corn-seeds"
+      }
+    },
+
+
+
+    "usd_over_soy_seeds": {
+      "usd/soy-bag": {
+        "ratio": 1,
+        "constant": 0,
+        "loc_key": "usd-soy-bag",
+        "base": true
+      },
+      "usd/1000 soy-seed": {
+        "ratio": 0.00000714285,
+        "constant": 0,
+        "loc_key": "usd-1000-soy-seeds"
+      }
+    }
+
+  }
+}
